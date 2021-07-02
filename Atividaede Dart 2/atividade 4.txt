@@ -1,0 +1,14 @@
+void main() {
+
+  int nota_um = 1;
+  int nota_dois = 6;
+  int media = 2;
+  
+  print("As média das duas notas mostra que você tirou ${nota_um + nota_dois / media}");
+  
+  if (nota_um + nota_dois / media >= 6){
+    print("Você está aprovado");
+  }else {
+    print("Você foi reprovado");
+  }
+}

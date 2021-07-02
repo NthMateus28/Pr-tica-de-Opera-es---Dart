@@ -1,0 +1,13 @@
+void main() {
+
+  int valor_um = 6;
+  int valor_dois = 4;
+  
+  if (valor_um >valor_dois){
+    print("O primeiro valor é maior");
+  } else if(valor_um == valor_dois){
+    print("Os valores são iguais");
+  }else {
+    print("O segundo valor é maior");
+  }
+}

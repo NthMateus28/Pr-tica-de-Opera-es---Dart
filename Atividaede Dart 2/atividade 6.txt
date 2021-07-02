@@ -1,0 +1,22 @@
+void main() {
+  int nota_um = 10;
+  int nota_dois = 10;
+  int nota_tres = 10;
+  int nota_quatro = 10;
+  double media;
+
+  media = (nota_um + nota_dois + nota_tres + nota_quatro) / 4;
+
+  if (media == 10) {
+    print("Parabéns! Você tirou A!");
+  } else if (media == 9) {
+    print("Parabéns! Você tirou B!");
+  } else if (media == 8) {
+    print("Parabèns! Você tirou C! Mas ainda pode melhorar!");
+  } else if (media == 7){
+      print("Cuidado! Você tirou C e passou na média");
+    }else {
+    print ("Você tirou F! Foi reprovado!");
+  }
+  
+}

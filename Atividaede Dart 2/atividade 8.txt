@@ -1,0 +1,20 @@
+void main() {
+  double saldo = 2000;
+  double saque = 3000;
+  double saldo_final;
+  
+  saldo_final = (saldo - saque);
+  
+  print("Seu saldo atual é de $saldo reais");
+  
+  print("Seu saque foi de $saque reais");
+  
+  
+  if (saldo > saque ){
+    print ("Saque efetuado com sucesso!");
+    print ("Seu saldo agora é de $saldo_final reais");
+  }else {
+    print("Saldo indisponível");
+    print("Faltam $saldo_final reias");
+  }
+}

@@ -1,0 +1,14 @@
+void main() {
+  
+  double salario = 2500;
+  int anos = 1;
+  
+  double novo_salario = (salario % 4);
+  
+  if (anos >= 1){
+    print("Parabéns você tem direito a um novo Salário!");
+    print("O seu novo Salário é $novo_salario reais");
+  }else {
+    print("Funcionário com menos de 1 ano de empresa");
+  }
+}

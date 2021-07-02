@@ -1,0 +1,18 @@
+void main() {
+
+  int valor_a = 2;
+  int valor_b = 4;
+  int valor_c = 5;
+  
+  //primeiro calculo
+  print("O resultado de a+b*c é ${valor_a + valor_b / valor_c}");
+  
+  //segundo calculo
+   print("O resultado de 2=b/a*c é ${ valor_b / valor_a * valor_c}");
+  
+  if (valor_a + valor_b / valor_c == valor_b / valor_a * valor_c){
+    print("Os resultados são iguais");
+  }else {
+    print("Os resultados não são iguais");
+  }
+}

@@ -1,0 +1,16 @@
+void main() {
+  int nota_um = 5;
+  int nota_dois = 4;
+  int nota_tres = 2;
+  double media;
+
+  media = (nota_um + nota_dois + nota_tres) / 3;
+
+  if (media >= 7) {
+    print("Aprovado!");
+  } else if (media == 6 & 7) {
+    print("Exame!");
+  } else {
+    print("Reprovado!");
+  }
+}

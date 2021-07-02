@@ -1,0 +1,14 @@
+void main() {
+  
+  int peso = 80;
+  
+  if (peso <= 60){
+    print("Seu tamanho é P!");
+  }else if (peso <= 74){
+    print("Seu tamanho é M!");
+  }else if (peso <= 85){
+    print("Seu tamanho é G!");
+  }else {
+    print("Seu tamanho é GG!");
+  }
+}
